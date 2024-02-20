@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery</title>
+<style>
+  /* Styles for the gallery */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .gallery-item {
+    margin: 10px;
+    text-align: center;
+  }
+
+  .gallery-item img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+<div class="gallery" id="gallery">
+</div>
+
+<script>
+  const gallery = document.getElementById('gallery');
+  const count = 32; // Number of screenshots
+
+  for (let i = 1; i <= count; i++) {
+    const imgSrc = `img/cakebook/Screenshot ${i}.png`;
+    const a = document.createElement('a');
+    a.href = imgSrc;
+    a.classList.add('gallery-item');
+    a.innerHTML = `
+      <figure class="effect-honey tm-gallery-item">
+        <img src="${imgSrc}" alt="Screenshot ${i}" class="img-fluid">
+        <figcaption>
+          <h2><i><span>click to</span> View</i></h2>
+        </figcaption>
+      </figure>
+    `;
+    gallery.appendChild(a);
+  }
+</script>
+</body>
+</html>
