@@ -568,15 +568,7 @@
     <script src="js/bootstrap.min.js"></script> 
     <script>
 
-function openFile() {
-            window.location.href = 'gallery.html';
-        }
 
-        function openFirstImage() {
-    // Find the first image link and simulate a click
-    var firstImageLink = document.querySelector('.tm-gallery a');
-    firstImageLink.click();
-  }
 
       function getOffSet(){
         var _offset = 450;
@@ -760,6 +752,13 @@ function openFile() {
         ]
         });
       });
+
+      function openFirstImage() {
+    // Find the first image link and simulate a click
+    var firstImageLink = document.querySelector('.tm-gallery a');
+    firstImageLink.click();
+  }
+
 
     </script>
   </body>
