@@ -56,7 +56,7 @@ blockquote {
 }
 
 .tm-text-primary {
-  color: #ad8a4a;
+  color: goldenrod;
 }
 
 .tm-font-big {
@@ -94,7 +94,7 @@ blockquote {
 
 
 .tm-navbar.scroll {
-  background-color: #ad8a4a;
+  background-color: goldenrod;
   border-bottom: 1px solid #e9ecef;
 }
 
@@ -243,7 +243,7 @@ blockquote {
 .tm-down-arrow {
   	color: #FFF;
     cursor: pointer;
-    background: #ad8a4a;
+    background: goldenrod;
     padding: 15px 40px;
     transition: all 0.3s ease;
 }
@@ -251,7 +251,7 @@ blockquote {
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
   color: #FFF;
-  background: #ad8a4a
+  background: goldenrod
 ;
   padding: 20px 50px;
 }
@@ -273,7 +273,7 @@ blockquote {
 
 .tm-icon {
   display: block;
-  color: #ad8a4a
+  color: goldenrod
 ;
 }
 
@@ -637,7 +637,7 @@ p {
   .navbar-expand-md .navbar-nav .nav-link {
     /* padding-right: 30px;
     padding-left: 30px; */
-    font-size: 13px;
+    font-size: 10px;
   }
 }
 
@@ -725,7 +725,7 @@ p {
   font-weight: normal;
   text-align: center;
   border: 2px solid black;
-  background-color: #ad8a4a;
+  background-color: goldenrod;
   color: rgb(255, 255, 255);
   width: 20%;
   margin: auto;
